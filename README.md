@@ -61,11 +61,21 @@ Each document is accompanied by:
 
 ### [`KAS_Verifier_OpenSSL.ipynb`](./KAS_Verifier_OpenSSL.ipynb)
 
-- Upload `.sha256`, `.sig`, and `public_key.pem`
-- Automatically confirm whether the signature is valid
-- Verifies that the file was signed by KAS and has not been tampered with
+Use this notebook to verify that a signed document:
+- Matches its cryptographic `.sha256` fingerprint
+- Was signed by the Kapodistrian Academy of Science
+- Has not been tampered with
 
----
+You must upload:
+- The `.pdf` file (signed document)
+- The `.sha256` file (hash)
+- The `.sig` file (signature)
+- The `public_key.pem` file (official KAS key)
+
+👉 Use the notebook in [Google Colab](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb) for quick validation.
+
+[![Launch KAS Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb)
+
 
 ## 📥 Official Public Key
 
