@@ -18,7 +18,7 @@ All official `.pdf` documents bearing the `SIGNED_KAS` stamp are:
 
 To have your finalized scientific document cryptographically signed by the Kapodistrian Academy of Science, use the official submission form:
 
-🔗 [Submit your paper here](https://forms.gle/oLhKr2KA17NPhSvr9)
+[![Submit to KAS](https://img.shields.io/badge/%F0%9F%93%9D%20Submit%20Your%20Paper-KAS%20Secure%20Form-2AA198?style=for-the-badge&logo=googleforms&logoColor=white)](https://forms.gle/oLhKr2KA17NPhSvr9)
 
 KAS will:
 - Stamp your PDF with metadata and cryptographic fingerprint
