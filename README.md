@@ -10,7 +10,7 @@ All official `.pdf` documents bearing the `SIGNED_KAS` stamp are:
 
 # 📄 Kapodistrian Scientific Document Signing System
 
-[![KAS Certified Validator](https://img.shields.io/badge/KAS%20Certified-Validator-4B8BBE?style=for-the-badge&logo=trustpilot&logoColor=white)](https://forms.gle/oLhKr2KA17NPhSvr9)
+[![KAS Certified Validator](https://img.shields.io/badge/KAS%20Certified-Validator-4B8BBE?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb)
 
 ---
 
