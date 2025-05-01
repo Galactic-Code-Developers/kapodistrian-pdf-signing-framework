@@ -8,6 +8,9 @@ All official `.pdf` documents bearing the `SIGNED_KAS` stamp are:
 - Signed by the Academy’s private key
 - Accompanied by `.sha256` and `.sig` companion files
 
+# 📄 Kapodistrian Scientific Document Signing System
+
+[![KAS Certified Validator](https://img.shields.io/badge/KAS%20Certified-Validator-4B8BBE?style=for-the-badge&logo=trustpilot&logoColor=white)](https://forms.gle/oLhKr2KA17NPhSvr9)
 
 ---
 
