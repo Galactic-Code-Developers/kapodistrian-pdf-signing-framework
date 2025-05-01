@@ -1,5 +1,8 @@
 # 📄 Kapodistrian Scientific Document Signing System
 
+[![KAS Certified Validator](https://img.shields.io/badge/KAS%20Certified-Validator-4B8BBE?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb)
+[![📝 Submit Your Paper](https://img.shields.io/badge/%F0%9F%93%9D%20Submit%20Your%20Paper-KAS%20Secure%20Form-2AA198?style=for-the-badge&logo=googleforms&logoColor=white)](https://forms.gle/oLhKr2KA17NPhSvr9)
+
 This repository provides public verification tools and guidance for validating the authenticity of scientific documents officially signed by the **Kapodistrian Academy of Science (KAS)**.
 
 All official `.pdf` documents bearing the `SIGNED_KAS` stamp are:
@@ -42,11 +45,6 @@ All official documents follow this format:
 [AuthorLastName]_[ShortTitle]_v[Version]_SIGNED_KAS_[Date].pdf
 ```
 
-Example:
-```
-Valamontes_SpectralRealization_v1_SIGNED_KAS_2025-05-01.pdf
-```
-
 Each document is accompanied by:
 - `[...].sha256` — file hash
 - `[...].sha256.sig` — cryptographic signature
@@ -57,17 +55,20 @@ Each document is accompanied by:
 
 ### [`KAS_Verifier_OpenSSL.ipynb`](./KAS_Verifier_OpenSSL.ipynb)
 
-- Upload `.sha256`, `.sig`, and `public_key.pem`
-- Automatically confirm whether the signature is valid
-- Verifies that the file was signed by KAS and has not been tampered with
+Use this notebook to verify that a signed document:
+- Matches its cryptographic `.sha256` fingerprint
+- Was signed by the Kapodistrian Academy of Science
+- Has not been tampered with
 
----
+You must upload:
+- The `.pdf` file (signed document)
+- The `.sha256` file (hash)
+- The `.sig` file (signature)
+- The `public_key.pem` file (official KAS key)
 
-## 🚀 Open Verifier Notebook
+👉 Use the notebook in Colab:
 
-Use the official KAS OpenSSL Verifier in Google Colab to validate signed documents:
-
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb)
+[![Launch Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb)
 
 📄 [Download Notebook](https://github.com/Galactic-Code-Developers/kas-pdf-auth-verifier/raw/main/KAS_Verifier_OpenSSL.ipynb)  
 🔐 [Download public_key.pem](https://github.com/Galactic-Code-Developers/kas-pdf-auth-verifier/raw/main/public_key.pem)
@@ -100,13 +101,6 @@ Official KAS-signed documents may optionally include:
 
 ---
 
-## License
-
-This repository and all included software tools are provided under the MIT License.
-
-All document signatures, intellectual property verifications, and validation policies are governed by the **Kapodistrian Academy of Science**.
----
-
 ## ⚖️ Disclaimer & Terms of Use
 
 The Kapodistrian Academy of Science (KAS) provides this digital verification and signature framework as a **free academic trust service** for authors, reviewers, and institutions.
@@ -122,3 +116,11 @@ The Kapodistrian Academy of Science (KAS) provides this digital verification and
 - KAS assumes no responsibility for misuse or unauthorized redistribution of signed files.
 
 For official verification, inquiries, or institutional adoption, contact: `security@kapodistrian.edu.gr`
+
+---
+
+## License
+
+This repository and all included software tools are provided under the MIT License.
+
+All document signatures, intellectual property verifications, and validation policies are governed by the **Kapodistrian Academy of Science**.
