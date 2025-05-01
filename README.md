@@ -8,6 +8,20 @@ All official `.pdf` documents bearing the `SIGNED_KAS` stamp are:
 - Signed by the Academy’s private key
 - Accompanied by `.sha256` and `.sig` companion files
 
+
+---
+
+## 📝 Submit Your Paper for Signing
+
+To have your finalized scientific document cryptographically signed by the Kapodistrian Academy of Science, use the official submission form:
+
+🔗 [Submit your paper here](https://forms.gle/oLhKr2KA17NPhSvr9)
+
+KAS will:
+- Stamp your PDF with metadata and cryptographic fingerprint
+- Generate and sign the official `.sha256` hash
+- Return a verified bundle (.pdf, .sha256, .sig) for publication or public release
+
 ---
 
 ## 🔍 What You Can Do Here
