@@ -37,7 +37,7 @@ To verify that the `.pdf` has not been tampered with and was officially signed b
    - The [official KAS `public_key.pem`](https://github.com/Galactic-Code-Developers/kas-verifier-page/blob/main/public_key.pem)
 
 2. **Use the KAS public verification tool**:  
-   👉 [Open the KAS Verifier in Google Colab](https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_OpenSSL.ipynb)
+[![KAS Certified Validator](https://img.shields.io/badge/KAS%20Certified-Validator-4B8BBE?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_OpenSSL.ipynb)
 
 ---
 
