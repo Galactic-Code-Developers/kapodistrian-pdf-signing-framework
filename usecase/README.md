@@ -47,6 +47,18 @@ This folder provides a public, transparent audit trail of signed KAS research do
 
 ---
 
+## 🔗 DOI Information
+
+This signed document corresponds to the following research publication:
+
+> **Title**: *Spectral Realization of the Nontrivial Zeros of the Riemann Zeta Function via a Hermitian Operator Framework*  
+> **Author**: Antonios Valamontes, Ioannis Adamamopoulos and John Karantonis  
+> **Published**: April 2025  
+> **DOI**: [10.13140/RG.2.2.28260.28800](https://doi.org/10.13140/RG.2.2.28260.28800)
+
+The `.pdf` file in this repository has been cryptographically verified and matches the content referenced by this DOI. Use the accompanying `.sha256` and `.sig` files for signature validation using the official KAS public key.
+
+
 ## 💬 Contact
 
 For document authenticity questions, contact the Kapodistrian Academy at:  
