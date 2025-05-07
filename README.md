@@ -53,7 +53,7 @@ Each document is accompanied by:
 
 ## 🛡 Signature Verification Tools
 
-### [`KAS_Verifier_OpenSSL.ipynb`](./KAS_Verifier_OpenSSL.ipynb)
+### [`KAS_Verifier_OpenSSL.ipynb`](https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_OpenSSL.ipynb)
 
 Use this notebook to verify that a signed document:
 - Matches its cryptographic `.sha256` fingerprint
