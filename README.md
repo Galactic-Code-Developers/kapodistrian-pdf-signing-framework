@@ -68,7 +68,7 @@ You must upload:
 
 👉 Use the notebook in Colab:
 
-[![Launch Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb)
+[![Launch Verifier in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-verifier-page/blob/main/KAS_Verifier_OpenSSL.ipynb)
 
 📄 [Download Notebook](https://github.com/Galactic-Code-Developers/kas-pdf-auth-verifier/raw/main/KAS_Verifier_OpenSSL.ipynb)  
 🔐 [Download public_key.pem](https://github.com/Galactic-Code-Developers/kas-pdf-auth-verifier/raw/main/public_key.pem)
