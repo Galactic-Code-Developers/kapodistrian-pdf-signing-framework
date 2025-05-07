@@ -1,6 +1,6 @@
 # 📄 Kapodistrian Scientific Document Signing System
 
-[![KAS Certified Validator](https://img.shields.io/badge/KAS%20Certified-Validator-4B8BBE?style=for-the-badge&logo=googlecolab&logoColor=white)](https://colab.research.google.com/github/Galactic-Code-Developers/kas-pdf-auth-verifier/blob/main/KAS_Verifier_OpenSSL.ipynb)
+[![KAS Certified Validator](https://img.shields.io/badge/KAS%20Certified-Validator-4B8BBE?style=for-the-badge&logo=googlecolab&logoColor=white)]
 [![📝 Submit Your Paper](https://img.shields.io/badge/%F0%9F%93%9D%20Submit%20Your%20Paper-KAS%20Secure%20Form-2AA198?style=for-the-badge&logo=googleforms&logoColor=white)](https://forms.gle/oLhKr2KA17NPhSvr9)
 
 This repository provides public verification tools and guidance for validating the authenticity of scientific documents officially signed by the **Kapodistrian Academy of Science (KAS)**.
